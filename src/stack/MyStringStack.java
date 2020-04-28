@@ -22,7 +22,10 @@ public class MyStringStack {
     public void push (String newElement) {
         if (newElement != null) v.add (newElement);
     }
-
+	
+	MyStringStack stack = new MyStringStack();
+	stack.push (s1);
+	assertTrue (stack.isEmpty());
 /**
      * Returns a String object that was pushed the last on the stack.
      * <p>This method always returns a valid String. </p>
